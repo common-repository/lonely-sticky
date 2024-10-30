@@ -1,0 +1,16 @@
+.ev-plugin-settings_w::after { clear: both; content: ""; display: block; }
+.ev-plugin-settings_w * { box-sizing: border-box; }
+
+.ev-plugin-content_w { width: 75%; padding-right: 40px; float: left; }
+@media screen and (max-width: 782px) { .ev-plugin-content_w { width: 100%; padding-right: 0; } }
+.ev-plugin-content_w .form-table { background: #fff; }
+.ev-plugin-content_w .form-table th, .ev-plugin-content_w .form-table td { padding: 20px; }
+.ev-plugin-content_w .form-table .description { font-size: 13px; }
+
+.ev-plugin-side_w { width: 25%; float: right; }
+@media screen and (max-width: 782px) { .ev-plugin-side_w { width: 100%; } }
+.ev-plugin-side_w hr { margin-top: 20px; margin-bottom: 20px; }
+.ev-plugin-side_w .button-primary { background: #66cc66; border-color: #339933; box-shadow: 0 1px 0 #339933; text-shadow: 0 -1px 1px #39ac39, 1px 0 1px #39ac39, 0 1px 1px #39ac39, -1px 0 1px #39ac39; }
+.ev-plugin-side_w .button-primary:hover { background: #73e573; border-color: #339933; }
+.ev-plugin-side_w .button-primary:focus { box-shadow: 0 1px 0 #339933, 0 0 2px 1px #66cc66; background: #66cc66; border-color: #339933; }
+.ev-plugin-side_w .button-primary:active { background: #339933; border-color: #267326; box-shadow: inset 0 2px 0 #267326; vertical-align: top; }
